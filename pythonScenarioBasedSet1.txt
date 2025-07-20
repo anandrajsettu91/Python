@@ -1,0 +1,76 @@
+Scenario: A system checks if a user is eligible to vote based on their age.
+ Write logic to ask the user for their age and determine if they are eligible to vote based on whether they are 18 or older.
+    Get user age as input
+    Check if age is greater than or equal to 18 
+    If yes eligible to vote
+    Else not eligible
+
+Scenario: A program processes a list of numbers and needs to find the largest value.
+ Write logic to identify and return the largest number from a given list.
+    Read the list of numbers
+    Assume first number as largest
+    Iterate through the list comparing each element with current largest number
+    If element compared is larger, update largest number
+    display the largest number
+
+Scenario: A company provides employees with a 10% bonus if their salary exceeds $50,000.
+ Write logic to determine the bonus amount based on the given salary.
+    Check if the salary of employee is greater than or equal to 50000
+    If yes calculate bonus as 10% of salary
+    Else set bonus as zero
+    Display bonus
+
+Scenario: A program evaluates a number to determine if it is even or odd.
+ Write logic to check whether a given number is even or odd.
+    Get a number from user as input
+    Check if modulo is equal to zero
+    If zero display even number
+    Else display odd number
+
+Scenario: A text-processing tool reverses a given word or sentence for formatting purposes.
+ Write logic to take a word or sentence as input and produce its reversed version.
+    Get a word/sentence as input from user
+    Convert the sentence string into characters
+    Reverse the order of characters in list
+    Combine the characters and form a string
+    Return the word/reversed sentence
+
+Scenario: A grading system determines whether a student has passed or failed based on their score.
+ Write logic to check if a student has passed a subject by scoring at least 40 marks.
+    Get the obtained mark as input from user
+    Assume the maximum alloted mark as 100
+    Check if mark is greater than or equal to 40
+    If yes display as passed
+    Else display failed
+
+Scenario: A retail store offers a 20% discount if a customer’s total order exceeds $100.
+ Write logic to calculate the final amount to be paid after applying the discount.
+    Get the total order amount
+    Check if the total order amount is greater than 100
+    If yes calculate discount as 20% and total amount payable as total order amount minus discount amount
+    Else amount payable as total order amount
+    Display amount payable
+
+Scenario: A banking system processes withdrawal requests and ensures the user has enough balance.
+ Write logic to check if a user has enough balance before allowing a withdrawal and update the remaining balance accordingly.
+    Get available balance from account details and withdrawal amount as input from user
+    Check withdrawal is smaller than the available balance
+    If yes display balance is not sufficient and decline the transaction
+    Else process the transaction and display transaction successful
+
+Scenario: A calendar system verifies whether a given year is a leap year based on standard leap year rules.
+ Write logic to determine whether a given year is a leap year.
+    Get the year input from user
+    If the year is divisible by 400, display it as leap year
+    If the year is divisible by 100 and not by 400, display not a leap year
+    If the year is divisible by 4 and not buy 100, display it as leap year
+    Else not a leap year
+
+Scenario: A program filters out only even numbers from a given list.
+ Write logic to extract and return only the even numbers from a list.
+    Read the element in list
+    Create an empty list to store the even numbers
+    Iterate through the list and check if modulo division by 2 is equal to 0
+    If yes write the number into the empty list
+    Return the final update list
+
