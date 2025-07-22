@@ -1,0 +1,72 @@
+Scenario: A user is required to enter a valid number in a form, but users sometimes input invalid data.
+ Write logic to repeatedly prompt the user until they enter a valid integer.
+    get input from user
+    check if input is numeric
+    if not numeric, request user to input valid numeric value
+    repeat this until value entered is numeric
+
+Scenario: A data analysis tool processes a list of numbers and needs to identify the most frequently occurring value.
+ Write logic to find the most frequently occurring number in a given list.
+    read the list
+    iterate through each element
+    keep counter of elements having same value
+    dislpay the element which has highest counter value
+
+Scenario: A text-processing application needs to compare words and check if they are anagrams (contain the same letters in a different order).
+ Write logic to determine whether two given strings are anagrams.
+    get two words as inpiut from user
+    sort both the input in ascending order
+    check if both the sorted words are equal
+    if yes then print words are anagram
+    else not an anagram
+
+Scenario: A speech analysis program needs to count the number of vowel sounds in a given input.
+ Write logic to count the number of vowels in a given string.
+    set a string for vowels
+    get the input from user
+    set a counter to zero
+    compare each character in the input string against the vowels
+    if matches increament the count by 1 and so on until end of string
+    dislpay the counter value as count of vowels in string
+
+Scenario: A text-editing software includes a feature to reverse the order of words in a sentence for stylistic effects.
+ Write logic to reverse the order of words in a sentence while keeping the words themselves intact.
+    get the input sentence
+    slice the sentence into individual words
+    print the words in reverse order using -1 step index
+
+Scenario: A missing number is detected in a sequence of values stored in a database.
+ Write logic to find the missing number in a list containing n-1 numbers from 1 to n.
+    read the input list
+    sort the list in ascending order
+    check each element in sorted list is consecutive number
+    if yes continue
+    else print the number as missing number
+
+Scenario: An ATM machine processes withdrawal requests and needs to ensure that users cannot withdraw more than their account balance.
+ Write logic to allow a withdrawal only if the balance is sufficient.
+    get the withdrwal amount input from user
+    read the available balance from user account
+    compare withdrwal amount and available balance
+    if withdrawal amount is greater than available balance, say insufficient balance
+    else continue transaction
+
+Scenario: A system needs to verify whether a given dataset contains duplicate entries.
+ Write logic to check whether a given list contains duplicate values.
+    read the input list
+    set a counter element to zero
+    compare the elements in list
+    if value of elements are same increament the counter
+    display the element value with counter value
+
+Scenario: A digital calculator includes a feature to sum the digits of a number for verification purposes.
+ Write logic to calculate the sum of all digits in a given integer.
+    get the numeric input from user
+    covert it to string
+    slice the value to individual digits
+    for values in string, sum up the value until end of string
+    display the total sum
+
+Scenario: A language-learning app wants to verify whether a given sentence is a pangram (contains every letter of the alphabet at least once).
+ Write logic to check if a given sentence is a pangram.
+
